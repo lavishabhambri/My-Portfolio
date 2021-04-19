@@ -239,63 +239,22 @@ font-weight: 700;
 }
 
 .home__title-color {
-  /* Fallback: Set a background color. */
-  background-color: #CA4246;
-  /* font-size: 4em; */
   letter-spacing: 0.1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  /* Create the gradient. */
-   background-image: linear-gradient(
-        45deg,
-        #CA4246 16.666%,
-                #E16541 16.666%,
-                #E16541 33.333%,
-                #F18F43 33.333%,
-                #F18F43 50%,
-                #8B9862 50%,
-                #8B9862 66.666%,
-                #476098 66.666%,
-                #476098 83.333%,
-                #A7489B 83.333%);
-
+  background-image: linear-gradient(45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    animation: rainbow-text-simple-animation-rev 0.75s ease-in-out forwards;
-
+  animation: background-image 5s ease-in-out forwards;
 }
 
 .home__title-color:hover{
-    animation: rainbow-text-simple-animation 0.5s ease-in-out forwards;
+    background-image: linear-gradient(-45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
+    animation: background-image 5s ease-in-out forwards;
 }
 
-
-@keyframes rainbow-text-simple-animation-rev {
-    0% {
-        background-size: 650%;
-    }
-    40% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 100%;
-    }
-}
-
-
-@keyframes rainbow-text-simple-animation {
-    0% {
-        background-size: 100%;
-    }
-    80% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 650%;
-    }
-}
 
 .home__social{
   display: flex;
@@ -427,8 +386,16 @@ font-weight: 700;
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: #d53567;
+  /* background-image: linear-gradient(90deg, #fff400, #d53567 50%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
 }
+
+.skills__data{
+  box-shadow: 0 4px 25px rgba(225, 225, 255, 0.3);
+}
+
 .skills__names{
   display: flex;
   align-items: center;
@@ -437,7 +404,7 @@ font-weight: 700;
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background: linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
@@ -481,9 +448,12 @@ font-weight: 700;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
   padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
+  border-image-source: linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567);
+  border: 3rem solid linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567);
+  /* outline: none; */
+  border-width: 3pt;
+  box-shadow: -4px 4px 25px rgba(225, 225, 255, 0.3);
+  border-image-slice: 1;
   margin-bottom: var(--mb-4);
 }
 .contact__button{
@@ -668,11 +638,13 @@ font-weight: 700;
   .about__img img{
     width: 250px;
     height: 400px;
-    /* box-shadow: 2px 2px 12px #ffa601, 0px -2px 12px #ff9f05,-2px 2px 12px #d53567; */
-    box-shadow: -2px 2px 12px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 25px rgba(225, 225, 255, 0.3);
+    border-radius: 5px;
+    border: solid 4px;
+    border-image: linear-gradient(to right, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567);
+    border-image-slice: 1;
   }
 
-  /* #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567); */
   .work__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
