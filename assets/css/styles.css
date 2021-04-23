@@ -175,12 +175,9 @@ img{
 }
 .nav__link{
   position: relative;
-  color: grey;
-}
-.nav__link:hover{
-  position: relative;
   color: #fff;
 }
+
 .nav__link:hover::after{
   position: absolute;
   content: "";
