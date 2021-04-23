@@ -93,6 +93,12 @@
   background: #000;
 }
 
+.project-technologies{
+  margin: 0px auto;
+  color: #dddddd;
+
+}
+
 
 @media screen and (max-width:1068px){
   .blog-post{
@@ -163,6 +169,11 @@
   }
   .blog-post__img::before{
     z-index: 2;
+  }
+
+  .skills-text{
+    width: 95%;
+    text-align: center;
   }
 }
 

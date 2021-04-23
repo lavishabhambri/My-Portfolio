@@ -129,6 +129,18 @@ img{
   -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
+.text-highlight-2{
+  background: linear-gradient(45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-highlight-2:hover{
+  background: linear-gradient(-45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 /*===== NAV =====*/
 .my_name{
@@ -535,15 +547,21 @@ img{
   transition: 5s ease-in-out;
 }
 
-@keyframes animate{
+/* @keyframes animate{
   0%{
     filter: hue-rotate(0deg);
   }
   100%{
     filter: hue-rotate(360deg);
   }
-}
+} */
 
+.skills-text{
+  width: 75%;
+  text-align:left;
+  margin: 30px auto 50px;
+  color:#dddddd;
+}
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 768px){
@@ -564,6 +582,8 @@ img{
       width: 95%;
       margin: 60px auto;
   }
+
+  
 }
 
 
