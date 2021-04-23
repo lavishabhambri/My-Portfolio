@@ -98,6 +98,9 @@
   color: #dddddd;
 }
 
+#work{
+  padding:0% 15%;
+}
 
 @media screen and (max-width:1068px){
   .blog-post{
@@ -138,6 +141,9 @@
 
 }
 @media screen and (max-width:768px){
+  #work{
+    padding:0% 0%;
+  }
   .blog-post{
     padding: 1rem;
     flex-direction: column;
@@ -168,7 +174,7 @@
   }
 
   .skills-text{
-    width: 95%;
+    width: 99%;
     text-align: center;
   }
 }
