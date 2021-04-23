@@ -52,7 +52,7 @@ sr.reveal('.skills__data',{interval: 200});
 sr.reveal('.timeline-box',{interval: 200});
 
 /*SCROLL WORK*/
-sr.reveal('.blog-post__img',{interval: 600});
+sr.reveal('.blog-post__img',{interval: 200});
 sr.reveal('.blog-post',{interval: 200});
 
 /*SCROLL CONTACT*/

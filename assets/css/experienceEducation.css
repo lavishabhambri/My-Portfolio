@@ -72,21 +72,25 @@
 
 .experience-designation {
     font-size: 1.4rem;
+    text-align: left;
+    margin: 10px 0px;
 }
 
 .experience-company-name {
-    margin: 5px 0 0;
-    background: linear-gradient(45deg, #fff400 25%, #ffa601,#f3503c, #d53567);
+    margin: 3px 0 0;
+    background: linear-gradient(45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
       -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* font-weight: 600; */
     font-size: 1.2rem;
+    text-align: left;
 }
 
 .experience-duration {
     font-weight: 100;
     color: lightgrey;
     font-size: 1rem;
+    text-align: left;
+    margin: 5px 0px;
 }
 
 .experience-description {
@@ -97,7 +101,7 @@
 }
 
 .text-align-justify {
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -132,4 +136,25 @@
   border-bottom: 3px solid ;
   border-image: linear-gradient(45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
   border-image-slice: 1;
+}
+
+
+@media screen and (max-width: 768px){
+  .home__title{
+    font-size: 2rem;
+  }
+
+  .home__img{
+    position: absolute;
+    left: 25%;
+    top: 70%;
+    margin: auto;
+    width: 60%;
+    height: 60%;
+  }
+  .timeline {
+      position: relative;
+      width: 100%;
+      margin: 60px auto;
+  }
 }
