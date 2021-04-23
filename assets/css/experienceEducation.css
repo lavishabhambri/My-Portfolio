@@ -11,7 +11,7 @@
 
 .timeline-box {
     padding: 5px;
-    width: 40%;
+    width: 45%;
     min-height: 150px;
     position: relative;
     left: 5%;
@@ -31,7 +31,7 @@
 }
 
 .timeline-container {
-    padding: 8px;
+    padding: 2px;
 }
 
 .timeline-logo {
@@ -65,7 +65,6 @@
     transform: rotate(90deg);
     margin-top: -35px;
     display: block;
-    /* image-background: linear-gradient(#fff400, #ffa601 ,#f3503c, #d53567, #A7489B); */
     color: #fff;
     text-shadow: 0px 4px 16px rgba(255,255,255,.8);
 }
@@ -156,5 +155,19 @@
       position: relative;
       width: 100%;
       margin: 60px auto;
+  }
+
+
+  .timeline-box {
+      padding: 5px;
+      width: 45%;
+      min-height: 150px;
+      position: relative;
+      left: 2%;
+      text-align: right;
+  }
+
+  .timeline-box:nth-child(2n) {
+      left: 55%;
   }
 }
