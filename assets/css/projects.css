@@ -147,7 +147,7 @@
   .blog-post{
     padding: 1rem;
     flex-direction: column;
-    margin:0% 20px 25%;
+    margin:0% auto 25% auto;
   }
   .blog-post__img{
     min-width: 100%;
