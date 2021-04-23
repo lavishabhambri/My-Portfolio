@@ -5,7 +5,7 @@
 }
 .timeline {
     position: relative;
-    width: 85%;
+    width: 75%;
     margin: 60px auto;
 }
 
@@ -86,7 +86,7 @@
 
 .experience-duration {
     font-weight: 100;
-    color: lightgrey;
+    color: #dddddd;
     font-size: 1rem;
     text-align: left;
     margin: 5px 0px;
@@ -95,7 +95,7 @@
 .experience-description {
     font-size: 14px;
     padding: 2px;
-    color: grey;
+    color: lightgrey;
     line-height: 20px;
 }
 

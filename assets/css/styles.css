@@ -9,7 +9,7 @@
 /*===== Colors =====*/
 :root{
   --first-color: blue;
-  --second-color: #dddddd;
+  --second-color: #fff;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -351,6 +351,11 @@ img{
 .about__img img{
   width: 200px;
   border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(225, 225, 255, 0.3);
+  border-radius: 5px;
+  border: solid 4px;
+  border-image: linear-gradient(to right, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567);
+  border-image-slice: 1;
 }
 
 /* ===== SKILLS =====*/
