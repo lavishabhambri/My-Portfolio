@@ -276,7 +276,6 @@ img{
   background: linear-gradient(90deg, #fff400, #ffa601);
   border-radius: 100%;
 }
-/* linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567); */
 
 .home__social-icon:nth-child(4n+2){
   padding: 8px 11px;
@@ -306,14 +305,23 @@ img{
   width: max-content;
   margin-bottom: var(--mb-2);
   color: #fff;
-  background: linear-gradient(90deg,  #d23369, #a01495);
+  background: linear-gradient(90deg,#d23369, #a01495);
+  border-radius: 100%;
+}
+
+.home__social-icon:nth-child(4n+5){
+  padding: 8px 13px;
+  font-size: 1.3rem;
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  color: #fff;
+  background: linear-gradient(90deg, #a01495, #405DE6);
   border-radius: 100%;
 }
 
 
 .home__social-icon:hover{
-  /* color: linear-gradient(90deg, #833ab4, #fd1d1d,#fcb045); */
-  background: linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567);
+  background: linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567, #a01495, #405DE6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   transition: 5s ease-in-out;
@@ -367,7 +375,7 @@ img{
   box-shadow: 0 4px 25px rgba(225, 225, 255, 0.3);
   border-radius: 5px;
   border: solid 4px;
-  border-image: linear-gradient(to right, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567);
+  border-image: linear-gradient(to right, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567, #a01495, #405DE6);
   border-image-slice: 1;
 }
 
@@ -507,7 +515,6 @@ img{
 }
 
 .footer__icon:nth-child(4n+2){
-  /* position: relative; */
   font-size: 1.5rem;
   padding: 8px 11px;
   font-size: 1.3rem;
@@ -537,6 +544,18 @@ img{
   margin-bottom: var(--mb-2);
   color: #fff;
   background:linear-gradient(90deg,  #d23369, #a01495);
+  border-radius: 100%;
+  margin: 0 var(--mb-2)
+}
+
+.footer__icon:nth-child(4n+5){
+  font-size: 1.5rem;
+  padding: 8px 11px;
+  font-size: 1.3rem;
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  color: #fff;
+  background:linear-gradient(90deg, #a01495, #405DE6);
   border-radius: 100%;
   margin: 0 var(--mb-2)
 }
