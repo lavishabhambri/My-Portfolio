@@ -321,7 +321,7 @@ img{
 
 
 .home__social-icon:hover{
-  background: linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567, #a01495, #405DE6);
+  background: linear-gradient(90deg, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567, #a01495);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   transition: 5s ease-in-out;
@@ -375,7 +375,7 @@ img{
   box-shadow: 0 4px 25px rgba(225, 225, 255, 0.3);
   border-radius: 5px;
   border: solid 4px;
-  border-image: linear-gradient(to right, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567, #a01495, #405DE6);
+  border-image: linear-gradient(to right, #fff400, #ffa601, #ff9f05 ,#f3503c, #ee4248, #d53567, #a01495);
   border-image-slice: 1;
 }
 
@@ -427,7 +427,7 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+/* .skills__html{
   width: 95%;
 }
 .skills__css{
@@ -438,7 +438,7 @@ img{
 }
 .skills__ux{
   width: 85%;
-}
+} */
 .skills__img{
   border-radius: .5rem;
 }
