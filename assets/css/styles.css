@@ -427,18 +427,7 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-/* .skills__html{
-  width: 95%;
-}
-.skills__css{
-  width: 85%;
-}
-.skills__js{
-  width: 65%;
-}
-.skills__ux{
-  width: 85%;
-} */
+
 .skills__img{
   border-radius: .5rem;
 }
@@ -458,6 +447,37 @@ img{
 }
 .work__img img:hover{
   transform: scale(1.1);
+}
+
+/* ===== CERTIFICATIONS =====*/
+#certification{
+  margin: auto;
+  text-align: center;
+}
+
+.certificates-box{
+  width: 500px;
+	padding: 0px 25px;
+	display: inline-block;
+	vertical-align: middle;
+    margin-bottom: 50px;
+	-moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.certificates-box:hover {
+	transform: scale(0.97);
+}
+
+.certificates-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+	-webkit-box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: -4px 4px 25px rgba(225, 225, 255, 0.3);
 }
 
 /* ===== CONTACT =====*/
@@ -566,15 +586,6 @@ img{
 	-webkit-text-fill-color: transparent;
   transition: 5s ease-in-out;
 }
-
-/* @keyframes animate{
-  0%{
-    filter: hue-rotate(0deg);
-  }
-  100%{
-    filter: hue-rotate(360deg);
-  }
-} */
 
 .skills-text{
   width: 70%;
