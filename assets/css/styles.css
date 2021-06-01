@@ -458,8 +458,9 @@ img{
 
 
 .certificates-box{
-  width: 400px;
+  width: 350px;
 	padding: 0px 25px;
+  margin: 20px;
 	display: inline-block;
 	vertical-align: middle;
     margin-bottom: 50px;
