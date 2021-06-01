@@ -453,10 +453,12 @@ img{
 #certification{
   margin: auto;
   text-align: center;
+  justify-content: center;
 }
 
+
 .certificates-box{
-  width: 500px;
+  width: 450px;
 	padding: 0px 25px;
 	display: inline-block;
 	vertical-align: middle;
