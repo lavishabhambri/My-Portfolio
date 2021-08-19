@@ -49,13 +49,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.blog-post__title:hover{
+/* .blog-post__title:hover{
   letter-spacing: 3px;
   transition: letter-spacing 2s ease-in-out;
   background: linear-gradient(-45deg, #fff400, #ffa601 ,#f3503c, #A7489B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 .blog-post__text{
   margin-bottom: 1rem;
   color: lightgrey;
@@ -184,10 +184,10 @@
   }
 
   .certificates-box img{
-    width: 85%;
+    width: 100%;
     height: auto;
     border-radius: 20px;
-	-webkit-box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.3);
+	  -webkit-box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.3);
     box-shadow: -4px 4px 25px rgba(225, 225, 255, 0.3);
   }

@@ -263,8 +263,12 @@ img{
 
 
 .home__social{
-  display: flex;
-  flex-direction: column;
+  display: flex-end;
+  flex-direction: row;
+}
+
+.home__social-icon{
+  margin-right: 15px;
 }
 
 .home__social-icon:nth-child(4n+1){
@@ -604,12 +608,13 @@ img{
   }
 
   .home__img{
-    position: absolute;
+    /* position: absolute;
     left: 25%;
     top: 70%;
     margin: auto;
     width: 60%;
-    height: 60%;
+    height: 60%; */
+    display: none;
   }
   .timeline {
       position: relative;
